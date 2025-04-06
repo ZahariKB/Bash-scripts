@@ -16,7 +16,6 @@ function calculate_string_weight {
     return $sum
 }
 
-# Пример использования:
 names=(Tom Masha Sveta Vitek)
 for name in "${names[@]}"; do
     calculate_string_weight "$name"
