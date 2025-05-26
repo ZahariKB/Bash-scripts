@@ -103,7 +103,7 @@ do
 i=$[ $i+1 ]
 echo "$i раз создали"
 touch file_$i
-done > Mishanya]
+done > test.txt
 
 #Демонстрация break
 i=1
@@ -117,4 +117,4 @@ echo "$i раз удалили"
 rm file_$i
 i=$[ $i+1 ]
 fi
-done >> Mishanya]
+done >> test.txt
