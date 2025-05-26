@@ -65,19 +65,19 @@ if [ $password = $repeat_password ]
 then
 echo "Успешно!"
 else
-echo "Не успешно! ЛОХ!"
+echo "Не успешно!"
 fi
 
 #Чтение из файла с другим разделителем
 IFS="\n"
-for i in $(cat "Mishanya]")
+for i in $(cat "test.txt")
 do
 echo $i
 done
 
-#Чтение даннхы по строчке
+#Чтение данных по строчке
 count_2=1
-cat Mishanya] | while read line
+cat test.txt | while read line
 do
 echo "Строчка $count_2"
 echo $line
